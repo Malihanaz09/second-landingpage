@@ -1,0 +1,69 @@
+.main{
+    border: 4px solid black;
+    box-shadow:6px 6px 3px black;
+    height: 800px;
+    width: 90vw;
+    margin:10px ;
+    padding:10px ;
+    position: fixed;
+}
+.first{
+    background-image: url(./images/ALOAVERA-2_24503-3906.jpg);
+    background-size: 96% 800px;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    
+}
+li{
+    display: inline;
+    position:relative;
+    left:40%;
+    margin: 20px;
+    padding: 10px;
+
+}
+li:hover{
+    color: white;
+    background-color:skyblue;
+}
+.heading{
+    margin: 30px;
+    padding: 10px;
+
+}
+h1{
+    font-size: 50px ;
+}
+button{
+    font-size: 18px;
+    font-weight: 700; 
+    border-radius:10px;
+    padding:10px;
+    margin: 10px;
+    background-color:skyblue;
+    transition: all ease 0.5s;
+
+}
+button:hover{
+    box-shadow:5px 5px 0 black;
+}
+.sec{
+    border: 2px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 10px black;
+    position: fixed;
+    left: 10%;
+    right: 15%;
+    display:flex;
+    margin-top:-50px;
+    padding: 20px;
+}
+.sec1,.sec2,.sec3{
+    box-shadow: 2px 5px 10px black;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+}
